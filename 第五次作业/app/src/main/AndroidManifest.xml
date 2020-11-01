@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homework4">
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="18990083-赵金峰"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisterActivity" android:exported="true"/>
+        <activity android:name=".SQLiteWriteActivity" android:exported="true"/>
+        <activity android:name=".SQLiteReadActivity" android:exported="true"/>
+        <activity android:name=".SDCardInfoActivity" android:exported="true"/>
+        <activity android:name=".LoginForgetActivity"/>
+        <activity android:name=".LoginActivity" android:exported="true"/>
+        <activity android:name=".ReadRegisterActivity" android:exported="true"/>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
